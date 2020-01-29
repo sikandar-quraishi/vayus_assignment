@@ -1,0 +1,109 @@
+*{
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  }
+.form-control {
+  border: 1px solid #0a0a0b;
+}
+
+.text-muted {
+  float: right;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.btn-primary {
+  margin-left: 103px;
+  margin-top: 35px;
+  width: 141px;
+  font-size: 18px;
+  background-color: #18d6b3;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 2px 6px #888888;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.clr {
+  color: #18d6b3;
+}
+
+.justify-content-center {
+  margin-top: 110px;
+  margin-left: -150px;
+}
+
+.fa-user-circle:before {
+  font-size: 117px;
+  border: 1px solid #18d6b3;
+  position: absolute;
+  margin-left: 423px;
+  margin-top: 13px;
+  padding: 33px;
+  padding-bottom: 37px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+.btn-primary:active {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+.btn-primary:focus {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+.alert-danger {
+    color: #ffffff;
+    background-color: #18d6b3;
+    border-color: #ffffff;
+    text-align: right;
+
+    
+}
+#otp-page a {
+    color: #ffffff;
+    text-decoration: none;
+
+    /* background-color: transparent; */
+}
+
+@media only screen and (max-width: 678px) {
+  .btn-primary {
+    margin-left: 110px;
+  }
+
+  .signupFormInputs {
+    margin-left: 180px;
+    margin-top: 190px;
+  }
+  .paragraph {
+    margin-left: 12px;
+  }
+  .fa-user-circle:before {
+    font-size: 138px;
+    border: none;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -29px;
+    padding: 40px;
+    padding-bottom: 34px;
+  }
+  .paragraphS {
+    margin-left: 18px;
+  }
+}

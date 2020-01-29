@@ -1,0 +1,100 @@
+
+* {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+.form-control {
+    border: 1px solid #0a0a0b;
+}
+
+.text-muted {
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+#signIn-button .btn-primary {
+    margin-left: 103px;
+    margin-top: 35px;
+    width: 141px;
+    font-size: 18px;
+    background-color: #18D6B3;
+    border: none;
+}
+
+#signIn-form.justify-content-center {
+    margin-top: 165px;
+    margin-left: -100px;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+a {
+    color: #18D6B3;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.clr {
+    color: #18D6B3;
+}
+
+.justify-content-center {
+    margin-top: 170px
+}
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #18d6b3;
+    border-color: #18d6b3;
+}
+
+.btn-primary:active {
+    color: #fff;
+    background-color: #18d6b3;
+    border-color: #18d6b3;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #18d6b3;
+    border-color: #18d6b3;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #18d6b3;
+    border-color: #18d6b3;
+}
+
+@media only screen and (max-width: 678px) {
+    .btn-primary {
+        margin-left: 110px;
+    }
+
+    .signInFormInputs {
+        margin-left: 125px;
+        margin-right: 30px;
+    }
+
+    #signIn-button .btn-primary {
+        margin-left: 25px;
+        margin-top: 35px;
+        width: 141px;
+        font-size: 18px;
+        background-color: #18D6B3;
+        border: none;
+    }
+
+
+
+
+
+
+}

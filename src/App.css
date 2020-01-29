@@ -1,0 +1,44 @@
+/* 
+
+*{
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+.form-control {
+    border: 1px solid #0a0a0b;
+}
+
+.text-muted {
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    margin-left: 103px;
+    margin-top: 35px;
+    width: 141px;
+    font-size: 18px;
+    background-color: #18D6B3;
+    border: none;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.clr {
+    color: #18D6B3;
+}
+
+.justify-content-center {
+    margin-top: 170px
+}
+
+@media only screen and (max-width: 678px) {
+    .btn-primary {
+        margin-left: 110px;
+    }
+    
+} */

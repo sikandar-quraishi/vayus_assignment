@@ -1,0 +1,136 @@
+.btn-outline-primary {
+  border: 1px solid #18d6b3;
+  border-radius: 0px;
+  color: black;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+  border-radius: 0px;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+  box-shadow: none;
+}
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+  box-shadow: none;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 20px;
+  font-size: large;
+}
+p {
+  color: #18d6b3;
+  text-align: center;
+}
+.col-12 {
+  text-align: left;
+}
+
+.color-change {
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+#Next-button {
+  margin-top: 30px;
+  border-radius: 7px;
+  box-shadow: 0px 2px 6px #888888;
+}
+p {
+  font-weight: 500;
+}
+
+* {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+body {
+  margin-top: 150px;
+}
+#button-primar.btn-primary {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+  border-radius: 0px;
+  box-shadow: none;
+  margin-top: 0px;
+}
+
+#start-button {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 678px) {
+  [type="button"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  button:not(:disabled) {
+    margin-bottom: 14px;
+  }
+
+  #Next-button {
+    margin-right: 42px;
+    margin-right: -120px;
+  }
+  .color-change {
+    margin-top: 25px;
+    margin-left: 213px;
+  }
+  #button-primar.btn-primary {
+    color: #fff;
+    background-color: #18d6b3;
+    border-color: #18d6b3;
+    /* border-radius: 7px; */
+    box-shadow: none;
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 36px;
+    margin-left: 20px;
+    font-size: large;
+  }
+ 
+  [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    /* padding-left: 35px; */
+    padding-right: 35px;
+    margin-left: 20px;
+    font-size: large;
+}
+}

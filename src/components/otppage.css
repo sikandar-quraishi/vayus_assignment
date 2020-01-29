@@ -1,0 +1,113 @@
+#form-control {
+  display: block;
+  width: 25%;
+  height: 80%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #18d6b3;
+  border-radius: 0px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -34px;
+  margin-left: 308px;
+  margin-top: 20px;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 0;
+  max-width: 100%;
+}
+
+p {
+  text-align: center;
+  color: #18d6b3;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+
+.btn-primary:active {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #18d6b3;
+  border-color: #18d6b3;
+  margin-top: 20px;
+  margin-left: 190px;
+}
+
+h6 {
+  text-align: center;
+}
+
+body {
+  margin-top: 165px;
+}
+
+@media only screen and (max-width: 678px) {
+  .form-row {
+    margin-left: 221px;
+  }
+  p {
+    margin-left: 122px;
+  }
+  h6 {
+    margin-left: 127px;
+  }
+  [type="button"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  button:not(:disabled) {
+    cursor: pointer;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 20px;
+    font-size: large;
+  }
+  [type="button"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  button:not(:disabled) {
+    cursor: pointer;
+    margin-right: -106px;
+  }
+
+  #start-button.btn-primary {
+    margin-left: 144px;
+  }
+
+}
